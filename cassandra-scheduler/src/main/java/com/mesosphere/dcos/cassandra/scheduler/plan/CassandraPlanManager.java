@@ -11,11 +11,6 @@ public class CassandraPlanManager extends DefaultPlanManager {
             final PhaseStrategyFactory strategyFactory) {
         super(EmptyStage.get(), strategyFactory);
     }
-//
-//    @Override
-//    public Optional<Phase> getCurrentPhase() {
-//        return super.getCurrentPhase();
-//    }
 
     @Override
     public void update(Protos.TaskStatus status) {
